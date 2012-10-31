@@ -10,10 +10,12 @@
 There should be only one default gw.
 
 example:
-	# route
-	Kernel IP routing table
-	Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
-	192.168.1.0     *               255.255.255.0   U     0      0        0 eth0
-	80.216.66.0     *               255.255.254.0   U     0      0        0 eth1
-	loopback        *               255.0.0.0       U     0      0        0 lo
-	default         ML-DOC-4-Cable6 0.0.0.0         UG    0      0        0 eth1
+```
+# route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+192.168.1.0     *               255.255.255.0   U     0      0        0 eth0
+80.216.66.0     *               255.255.254.0   U     0      0        0 eth1
+loopback        *               255.0.0.0       U     0      0        0 lo
+default         ML-DOC-4-Cable6 0.0.0.0         UG    0      0        0 eth1
+```
