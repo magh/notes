@@ -4,7 +4,8 @@
 	$ lspci -nn | grep 0280
 	03:00.0 Network controller [0280]: Realtek Semiconductor Co., Ltd. RTL8191SEvB Wireless LAN Controller [10ec:8172] (rev 10)
 
-
+	sudo apt-get install wicd
+	sudo apt-get remove network-manager
 
 # Gateway
 There should be only one default gw.
